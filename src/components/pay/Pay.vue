@@ -51,13 +51,11 @@ export default {
       if(this.val>1){
       this.val--
       }
-      this.getSubTotal()
     },
     goodAdd(){
       if(this.val<=5){
       this.val++
       }
-      this.getSubTotal()
     },
     handleCart(){
       this.$router.push("/Login")
